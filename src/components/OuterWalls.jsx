@@ -2,7 +2,7 @@ import { Box } from "@react-three/drei"
 
 export default function OuterWalls() {
   const wallThickness = 0.5
-  const wallHeight = 10
+  const wallHeight = 5
   const planeSize = 40
 
   const WallSegment = ({ args, position }) => (
